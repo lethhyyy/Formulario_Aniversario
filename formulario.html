@@ -1,0 +1,59 @@
+<!doctype HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bonitinho.css">
+    <script src="logica.js"></script>
+  </head>
+    <body>
+	   <fieldset>
+	     <form>
+		     <br>
+				<tr>
+					<td class="direita">
+						<label for="dia">Digite o dia do nascimento</label>
+						<input type="text" id="dia"  onMouseOut = "VerificarDia()" />
+					</td>
+				</tr><br>
+				<tr>
+					<td class="direita"><br>
+						<label for="mes">Digite o mês do nascimento</label>
+						 <input type="text" id="mes"  onMouseOut = "VerificarMes()" />
+					</td>
+				</tr><br>
+				<tr>
+					<td class="direita"><br>
+						<label for="ano">Digite o ano de nascimento</label>
+						 <input type="text" id="ano" onMouseOut = "VerificarAno()" />  
+					</td>
+				</tr><br>
+				<tr>
+					<td class="direita"><br>
+						 <label for="idade">Sua idade atual é</label>
+						<input type="text" id="idade" disabled />
+					</td>
+				</tr><br>
+				<tr>
+				    <td class="direita"><br>
+					     <label for="diasem">O dia da semana que você nasceu foi</label>
+					    <input type="text" id="diasem" disabled />
+					</td>
+				</tr><br>
+				<tr>
+				    <td class="direita"><br>
+					    <label for="idade">O seu signo é</label>
+					    <input type="text" id="signo" disabled />
+					</td>
+				</tr><br>
+				<tr>
+					<td colspan="2" class="centralizado"><br>
+						<input class="botaozinho" type="button" value="Exibir" onClick="Exibir()"/>  
+						<input class="botaozinho" type="reset" value="Limpar" onClick="Limpar()"/>
+					</td>
+				</tr>
+			</form>
+		</fieldset>
+	</body>
+</html>

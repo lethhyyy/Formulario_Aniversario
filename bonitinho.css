@@ -1,0 +1,117 @@
+body
+{
+	font-family:Verdana;
+	font-size:125%;
+	background-repeat:repeat;
+	background-attachment:fixed;
+	background-color: rgb(0,0,0);
+}
+	
+form
+{
+	width:80%;
+	border-radius:10%;
+	margin-left:12%;
+}
+	
+fieldset
+{
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    border-radius: 2px;
+    padding: 20px;
+}
+	
+.botaozinho
+{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #74BAA0;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+}
+	
+.botao:hover 
+{
+    background-color: #17513f;
+}
+	
+.direita
+{
+	text-align:right;
+}
+	
+#dia
+{
+    width: 97%;
+	height: 20px;
+    border: none;
+    padding-left: 10px;
+    border-bottom:  solid #216651;
+    letter-spacing: 1px;
+    outline: none;
+}
+	
+#mes
+{
+    width: 97%;
+	height: 20px;
+    border: none;
+    padding-left: 10px;
+    border-bottom:  solid #216651;
+    letter-spacing: 1px;
+    outline: none;
+}
+	
+#ano
+{
+    width: 97%;
+	height: 20px;
+    border: none;
+    padding-left: 10px;
+    border-bottom:  solid #216651;
+    letter-spacing: 1px;
+    outline: none;
+}
+	
+#diasem
+{
+    width: 97%;
+	height: 20px;
+    border: none;
+    padding-left: 10px;
+    border-bottom:  solid #216651;
+    letter-spacing: 1px;
+    outline: none;
+}
+	
+#idade
+{
+    width: 97%;
+	height: 20px;
+    border: none;
+    padding-left: 10px;
+    border-bottom:  solid #216651;
+    letter-spacing: 1px;
+    outline: none;
+}
+	
+#signo
+{
+    width: 97%;
+	height: 20px;
+    border: none;
+    padding-left: 10px;
+    border-bottom:  solid #216651;
+    letter-spacing: 1px;
+    outline: none;
+}
